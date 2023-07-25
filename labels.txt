@@ -1,0 +1,5 @@
+0 Sweat
+1 Shiver
+2 Irritate
+3 Sneeze
+4 Background
