@@ -9,8 +9,8 @@ import sensor
 from AIoT_Action_Feelings_Change import Detect_Feelings
 import Security
 
-AIO_USERNAME = "PhamBaoLongGroupAI"
-AIO_KEY = "aio_GLpQ71e9BHVW7RTMgs1Va1Cs5SLa"
+AIO_USERNAME = ""
+AIO_KEY = ""
 
 global_equation = "x1/x2"
 Security.Sign_up()
