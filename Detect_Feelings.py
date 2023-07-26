@@ -9,10 +9,10 @@ import numpy as np
 np.set_printoptions(suppress=True)
 
 # Load the model
-model = load_model(r"keras_model.h5", compile=False)
+model = load_model(r"/Users/phambaolong/PycharmProjects/pythonProject/keras_model.h5", compile=False)
 
 # Load the labels
-class_names = open(r"labels.txt", "r").readlines()
+class_names = open(r"/Users/phambaolong/PycharmProjects/pythonProject/labels.txt", "r").readlines()
 
 # CAMERA can be 0 or 1 based on default camera of your computer
 camera = cv2.VideoCapture(0)
@@ -45,5 +45,9 @@ def image_detector():
     image_detector.Confidence_Score = str(np.round(confidence_score * 100))[:-2]
     print("Class:", image_detector.Class_name1, end="")
     print("Confidence Score:", image_detector.Confidence_Score, "%")
+'''
+while True:
+    image_detector()
+    time.sleep(5)
 
-
+'''
